@@ -27,4 +27,79 @@
     <string name="number_eight_miwok">kawinta</string>
     <string name="number_nine_miwok">wo\'e</string>
     <string name="number_ten_miwok">na\'aacha</string>
+
+    <string name="color_red_eng">red</string>
+    <string name="color_green_eng">green</string>
+    <string name="color_brown_eng">brown</string>
+    <string name="color_gray_eng">gray</string>
+    <string name="color_black_eng">black</string>
+    <string name="color_white_eng">white</string>
+    <string name="color_dusty_yellow_eng">dusty yellow</string>
+    <string name="color_mustard_yellow_eng">mustard yellow</string>
+
+    <string name="color_red_miwok">weṭeṭṭi</string>
+    <string name="color_green_miwok">chokokki</string>
+    <string name="color_brown_miwok">ṭakaakki</string>
+    <string name="color_gray_miwok">ṭopoppi</string>
+    <string name="color_black_miwok">kululli</string>
+    <string name="color_white_miwok">kelelli</string>
+    <string name="color_dusty_yellow_miwok">ṭopiisә</string>
+    <string name="color_mustard_yellow_miwok">chiwiiṭә</string>
+    
+    <string name="family_father_eng">father</string>
+    <string name="family_mother_eng">mother</string>
+    <string name="family_son_eng">son</string>
+    <string name="family_daughter_eng">daughter</string>
+    <string name="family_older_brother_eng">older brother</string>
+    <string name="family_younger_brother_eng">younger brother</string>
+    <string name="family_older_sister_eng">older sister</string>
+    <string name="family_younger_sister_eng">younger sister</string>
+    <string name="family_grandmother_eng">grandmother</string>
+    <string name="family_grandfather_eng">grandfather</string>
+
+    <string name="family_father_miwok">әpә</string>
+    <string name="family_mother_miwok">әṭa</string>
+    <string name="family_son_miwok">angsi</string>
+    <string name="family_daughter_miwok">tune</string>
+    <string name="family_older_brother_miwok">taachi</string>
+    <string name="family_younger_brother_miwok">chalitti</string>
+    <string name="family_older_sister_miwok">teṭe</string>
+    <string name="family_younger_sister_miwok">kolliti</string>
+    <string name="family_grandmother_miwok">ama</string>
+    <string name="family_grandfather_miwok">paapa</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </resources>
