@@ -67,39 +67,26 @@
     <string name="family_younger_sister_miwok">kolliti</string>
     <string name="family_grandmother_miwok">ama</string>
     <string name="family_grandfather_miwok">paapa</string>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    <string name="phrase_where_are_you_going_eng">Where are you going?</string>
+    <string name="phrase_what_is_your_name_eng">What is your name?</string>
+    <string name="phrase_my_name_is_eng">My name is...</string>
+    <string name="phrase_how_are_you_feeling_eng">How are you feeling?</string>
+    <string name="phrase_im_feeling_good_eng">I\'m feeling good</string>
+    <string name="phrase_are_you_coming_eng">Are you coming?</string>
+    <string name="phrase_yes_im_coming_eng">Yes, I\'m coming.</string>
+    <string name="phrase_im_coming_eng">I\'m coming.</string>
+    <string name="phrase_lets_go_eng">Let\'s go.</string>
+    <string name="phrase_come_here_eng">Come here.</string>
+
+    <string name="phrase_where_are_you_going_miwok">minto wuksus</string>
+    <string name="phrase_what_is_your_name_miwok">tinnә oyaase\'nә</string>
+    <string name="phrase_my_name_is_miwok">oyaaset...</string>
+    <string name="phrase_how_are_you_feeling_miwok">michәksәs?</string>
+    <string name="phrase_im_feeling_good_miwok">kuchi achit</string>
+    <string name="phrase_are_you_coming_miwok">әәnәs\'aa?</string>
+    <string name="phrase_yes_im_coming_miwok">hәә’ әәnәm</string>
+    <string name="phrase_im_coming_miwok">әәnәm</string>
+    <string name="phrase_lets_go_miwok">yoowutis</string>
+    <string name="phrase_come_here_miwok">әnni\'nem</string>
 </resources>
