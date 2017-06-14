@@ -19,7 +19,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         View listItemView = convertView;
         if(listItemView == null) {
             listItemView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_items, parent, false);
+                    R.layout.list_item, parent, false);
         }
 
         Word currentWord = getItem(position);
