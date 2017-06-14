@@ -13,19 +13,19 @@ public class PhrasesActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
-        ArrayList<Word> phrases = new ArrayList<>();
-        phrases.add(new Word(getResources().getString(R.string.phrase_where_are_you_going_eng), getResources().getString(R.string.phrase_where_are_you_going_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_what_is_your_name_eng), getResources().getString(R.string.phrase_what_is_your_name_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_my_name_is_eng), getResources().getString(R.string.phrase_my_name_is_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_how_are_you_feeling_eng), getResources().getString(R.string.phrase_how_are_you_feeling_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_im_feeling_good_eng), getResources().getString(R.string.phrase_im_feeling_good_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_are_you_coming_eng), getResources().getString(R.string.phrase_are_you_coming_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_yes_im_coming_eng), getResources().getString(R.string.phrase_yes_im_coming_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_im_coming_eng), getResources().getString(R.string.phrase_im_coming_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_lets_go_eng), getResources().getString(R.string.phrase_lets_go_miwok)));
-        phrases.add(new Word(getResources().getString(R.string.phrase_come_here_eng), getResources().getString(R.string.phrase_come_here_miwok)));
+        ArrayList<Word> words = new ArrayList<>();
+        words.add(new Word(getResources().getString(R.string.phrase_where_are_you_going_eng), getResources().getString(R.string.phrase_where_are_you_going_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_what_is_your_name_eng), getResources().getString(R.string.phrase_what_is_your_name_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_my_name_is_eng), getResources().getString(R.string.phrase_my_name_is_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_how_are_you_feeling_eng), getResources().getString(R.string.phrase_how_are_you_feeling_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_im_feeling_good_eng), getResources().getString(R.string.phrase_im_feeling_good_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_are_you_coming_eng), getResources().getString(R.string.phrase_are_you_coming_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_yes_im_coming_eng), getResources().getString(R.string.phrase_yes_im_coming_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_im_coming_eng), getResources().getString(R.string.phrase_im_coming_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_lets_go_eng), getResources().getString(R.string.phrase_lets_go_miwok)));
+        words.add(new Word(getResources().getString(R.string.phrase_come_here_eng), getResources().getString(R.string.phrase_come_here_miwok)));
 
-        WordAdapter wordsAdapter = new WordAdapter(this, phrases);
+        WordAdapter wordsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(wordsAdapter);
     }

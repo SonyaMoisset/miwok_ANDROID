@@ -33,4 +33,3 @@ public class WordAdapter extends ArrayAdapter<Word> {
         return listItemView;
     }
 }
-

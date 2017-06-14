@@ -13,19 +13,19 @@ public class FamilyActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
 
-        ArrayList<Word> familyMembers = new ArrayList<>();
-        familyMembers.add(new Word(getResources().getString(R.string.family_father_eng), getResources().getString(R.string.family_father_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_mother_eng), getResources().getString(R.string.family_mother_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_son_eng), getResources().getString(R.string.family_son_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_daughter_eng), getResources().getString(R.string.family_daughter_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_older_brother_eng), getResources().getString(R.string.family_older_brother_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_younger_brother_eng), getResources().getString(R.string.family_younger_brother_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_older_sister_eng), getResources().getString(R.string.family_older_sister_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_younger_sister_eng), getResources().getString(R.string.family_younger_sister_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_grandmother_eng), getResources().getString(R.string.family_grandmother_miwok)));
-        familyMembers.add(new Word(getResources().getString(R.string.family_grandfather_eng), getResources().getString(R.string.family_grandfather_miwok)));
+        ArrayList<Word> words = new ArrayList<>();
+        words.add(new Word(getResources().getString(R.string.family_father_eng), getResources().getString(R.string.family_father_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_mother_eng), getResources().getString(R.string.family_mother_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_son_eng), getResources().getString(R.string.family_son_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_daughter_eng), getResources().getString(R.string.family_daughter_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_older_brother_eng), getResources().getString(R.string.family_older_brother_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_younger_brother_eng), getResources().getString(R.string.family_younger_brother_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_older_sister_eng), getResources().getString(R.string.family_older_sister_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_younger_sister_eng), getResources().getString(R.string.family_younger_sister_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_grandmother_eng), getResources().getString(R.string.family_grandmother_miwok)));
+        words.add(new Word(getResources().getString(R.string.family_grandfather_eng), getResources().getString(R.string.family_grandfather_miwok)));
 
-        WordAdapter wordsAdapter = new WordAdapter(this, familyMembers);
+        WordAdapter wordsAdapter = new WordAdapter(this, words);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(wordsAdapter);
     }
