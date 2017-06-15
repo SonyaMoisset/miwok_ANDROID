@@ -25,7 +25,7 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word(getResources().getString(R.string.phrase_lets_go_eng), getResources().getString(R.string.phrase_lets_go_miwok)));
         words.add(new Word(getResources().getString(R.string.phrase_come_here_eng), getResources().getString(R.string.phrase_come_here_miwok)));
 
-        WordAdapter wordsAdapter = new WordAdapter(this, words);
+        WordAdapter wordsAdapter = new WordAdapter(this, words, R.color.category_phrases);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(wordsAdapter);
     }
