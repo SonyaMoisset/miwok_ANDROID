@@ -25,7 +25,7 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(new Word(getResources().getString(R.string.number_nine_eng), getResources().getString(R.string.number_nine_miwok), R.drawable.number_nine));
         words.add(new Word(getResources().getString(R.string.number_ten_eng), getResources().getString(R.string.number_ten_miwok), R.drawable.number_ten));
 
-        WordAdapter wordsAdapter = new WordAdapter(this, words);
+        WordAdapter wordsAdapter = new WordAdapter(this, words, R.color.category_numbers);
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(wordsAdapter);
     }
